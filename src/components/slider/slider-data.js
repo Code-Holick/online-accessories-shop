@@ -1,3 +1,6 @@
+import womenFashion from "../../assets/women-fashion.webp";
+import menFashion from "../../assets/men-fashion.jpg";
+
 export const sliderData = [
   {
     image: "https://i.ibb.co/CBGRLhG/bg-4.jpg",
@@ -5,13 +8,13 @@ export const sliderData = [
     desc: "Up to 30% off on all onsale proucts.",
   },
   {
-    image: "https://i.ibb.co/cDLBk5h/bg-1.jpg",
-    heading: "Women Fashion",
+    image: womenFashion,
+    heading: "Women's Fashion",
     desc: "Up to 30% off on all onsale proucts.",
   },
   {
-    image: "https://i.ibb.co/HXjD3V0/bg-2.jpg",
-    heading: "Men Fashion",
+    image: menFashion,
+    heading: "Men's Fashion",
     desc: "Up to 30% off on all onsale proucts.",
   },
   {
@@ -20,3 +23,4 @@ export const sliderData = [
     desc: "Up to 30% off on all onsale proucts.",
   },
 ];
+

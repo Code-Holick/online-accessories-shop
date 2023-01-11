@@ -64,7 +64,7 @@ const Login = () => {
   return (
     <>
       {isLoading && <Loader />}
-      <section className={`container ${styles.auth}`}>
+      <section className={`container ${styles.auth} ${styles.custom}`}>
         <div className={styles.img}>
           <img src={loginImg} alt="Login" width="400" />
         </div>
@@ -100,10 +100,11 @@ const Login = () => {
               className="--btn --btn-danger --btn-block"
               onClick={signInWithGoogle}
             >
-              <FaGoogle color="#fff" /> Login With Google
+              <FaGoogle color="#fff" /><span>&nbsp;&nbsp;</span> 
+              Login With Google
             </button>
             <span className={styles.register}>
-              <p>Don't have an account?</p>
+              <p>Don't have an account?&nbsp;</p>
               <Link to="/register">Register</Link>
             </span>
           </div>
