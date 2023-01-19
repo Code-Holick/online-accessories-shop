@@ -42,6 +42,7 @@ const Checkout = () => {
     // Create PaymentIntent as soon as the page loads
     fetch('https://online-accessories-shop-code-holick.vercel.app/create-payment-intent', {
       method: "POST",
+      mode: 'no-cors',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         items: cartItems,
