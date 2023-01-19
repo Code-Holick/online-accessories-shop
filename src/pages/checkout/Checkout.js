@@ -40,7 +40,7 @@ const Checkout = () => {
   useEffect(() => {
     // http://localhost:4242/create-payment-intent
     // Create PaymentIntent as soon as the page loads
-    fetch("http://fyp-shop.vercel.app/create-payment-intent", {
+    fetch("https://online-accessories-shop-code-holick.vercel.app//create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
