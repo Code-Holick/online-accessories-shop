@@ -11,7 +11,7 @@
           ]
         },
         {
-          "source": "/fyp-shop-code-holick.vercel.app/(.*)",
+          "source": "/fyp-shop-code-holick/(.*)",
           "headers": [
             { "key": "Access-Control-Allow-Origin", "value": "*" }
           ]
